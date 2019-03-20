@@ -1,4 +1,4 @@
-# Feed-Reader-Testing
+# Feed Reader Testing
 Feed Reader Testing is the 4th project in Udacity Front-End Web Developer Nanodegree. In this project you are given a web-based application that reads RSS feeds. 
 
 # Why this Project?
