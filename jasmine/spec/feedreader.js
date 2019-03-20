@@ -66,9 +66,9 @@ $(function() {
             loadFeed(0, done);
         });
 
-        it("should have at least one article when load feed", function(done) {
-            expect($(".feed").find(".entry")[0]).toBeDefined();
-            done();
+        it('are present when LoadFeed is called', function() {
+            let checkForEntry = $('.feed .entry').length;
+            expect(checkForEntry).toBeGreaterThan(0);
         });
     });
 
